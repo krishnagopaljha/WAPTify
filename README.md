@@ -2,10 +2,6 @@
 
 A CLI-based security testing tool with modular architecture for web application vulnerability assessment.
 
-![CLI Tool Demo](https://img.shields.io/badge/CLI-Tool-brightgreen) 
-![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
-
-
 ## Features
 
 - **JWT Operations**
