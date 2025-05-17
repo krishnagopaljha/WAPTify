@@ -6,7 +6,24 @@ from core.xss_checker import check_xss
 from core.redirect_checker import check_open_redirect
 from core.dir_bruteforcer import bruteforce_directories
 
+def logo():
+    print(r"""__          __     _____ _______ _  __       
+\ \        / /\   |  __ \__   __(_)/ _|      
+ \ \  /\  / /  \  | |__) | | |   _| |_ _   _ 
+  \ \/  \/ / /\ \ |  ___/  | |  | |  _| | | |
+   \  /\  / ____ \| |      | |  | | | | |_| |
+    \/  \/_/    \_\_|      |_|  |_|_|  \__, |
+                                        __/ |
+                                       |___/
+|--------------------------------------------------------------------|
+| Created By: Krishna Gopal Jha                                      |
+| Checkout my LinkedIn: https://www.linkedin.com/in/krishnagopaljha/ |
+| Lookup at my insta: https://instagram.com/theindianpsych           |
+|--------------------------------------------------------------------|
+""")
+
 def main():
+    logo()
     # Main parser setup
     parser = argparse.ArgumentParser(
         description="Web Application Penetration Testing Toolkit (WAPT)",
